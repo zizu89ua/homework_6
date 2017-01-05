@@ -77,3 +77,42 @@ form a:last-child{
     background-position: -30px 0;
     width: 18px;
 }
+.topmenu{
+   background: -webkit-linear-gradient(top, rgba(77,86,99,1) 0%, rgba(45,50,54,1) 9%, rgba(1,1,1,1) 100%);
+   border-bottom: 1px #0a1030 solid;
+   border-left: 1px #181e32 solid;
+   border-radius: 5px;
+   border-right: 1px #0d1642 solid;
+   border-top: 1px #2c345a solid;
+   box-shadow: 3px 4px 12px -1px rgba(10,16,48,1);
+   margin-top: 5px;
+   height: 32px;
+   position: relative;
+}
+nav{
+    float: left;
+    margin-left: 128px;
+    
+}
+nav a{
+    color: #b1bcc0;
+    display: block;
+    float: left;
+    font-family: 'Lucida Sans Unicode', arial;
+    font-size: 14px;
+    margin-top: 3px;
+    padding: 5px 18px 5px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav a:hover{
+    background: -webkit-linear-gradient(top, rgba(37,97,123,1) 0%, rgba(9,35,59,1) 100%);
+    border-radius: 90px;
+    color: #e9ecef;
+}
+.basket{
+    position: relative
+}
+.basket li{
+    float: left;
+}
