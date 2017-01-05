@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url(http://allfont.ru/allfont.css?fonts=lucida-sans-unicode);
+body{
+    background: #ffffff;
+}
+.wrapper{
+    margin: 0 auto;
+    width: 908px;
+}
+.topheader{
+    margin: 10px auto;
+}
+.contacts li{
+    float: left;
+    padding: 5px 0 5px 4px;
+    font-size: 19px;
+    font-family: Arial, Tahoma sans-serif;
+}
+form{
+    background: -webkit-linear-gradient(top, rgba(31,103,135,1) 0%, rgba(12,51,87,1) 100%);
+    border-top: 1px solid #a6c3cf;
+    border-radius: 5px;
+    box-shadow: 1px 2px 10px 1px rgba(119, 119, 119, 0.64);
+    float: left;
+    height: 17px;
+    margin-left: 17px;
+    margin-right: 16px;
+    padding: 3px 10px 5px 25px;
+    position: relative;
+}
+form input{
+    width: 113px;
+}
+form img{
+    position: absolute;
+    top: 4px;
+    left: 7px;
+}
+form a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'Lucida Sans Unicode', arial;
+}
+form a:last-child{
+    text-decoration: underline;
+    padding-left: 20px;
+}
+.map{
+    border: 1px #d3d8da solid;
+    border-radius: 70px;
+    height: 19px;
+    position: relative;
+    overflow: hidden;
+    width: 75px;
+}
+.map li{
+    float: left;
+    list-style: none;
+    padding-left: 9px;
+    padding-top: 3px;
+    width: 10px;
+}
+.map a{
+    background: url(../img/sprintmap.png) 0 0 no-repeat;
+    display: block;
+    height: 12px;
+    width: 14px;
+}
+.map .sitemap{
+    background-position: -14px 0;
+}
+.map .letter{
+    background-position: -30px 0;
+    width: 18px;
+}
