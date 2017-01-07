@@ -136,3 +136,66 @@ nav a:hover{
 .basketsum{
     padding-left: 7px;
 }
+.search-box{
+    margin-top: 10px;
+}
+.search-box h2{
+    color: #154467;
+    font-weight: bold;
+    margin-bottom: 7px;
+}
+.search-for-car form{
+    background: #ffffff;
+    border: 1px #9c9c9d solid;
+    border-radius: 25px;
+    height: 132px;
+    padding-top: 4px;
+    position: relative;
+    width: 414px;
+}
+.car-disk{
+    float: left;
+    display: block;
+    margin-bottom: 5px;
+}
+form select{
+    border: 1px #9f9f9f solid;
+    border-bottom: none;
+    width: 100px;
+    color: #0c3256;
+}
+.car-first-style{
+    display: block;
+    font-family: Arial, Tahoma sans-serif;
+    font-size: 10px;
+    font-weight: bold;
+    float: left;
+    margin-right: 4px;
+    text-align: left;
+    padding-top: 4px;
+}
+.car-second-style{
+    color: #77858b;
+    font-family: Arial, Tahoma sans-serif;
+    font-size: 10px;
+    display: block;
+    float: left;
+}
+.brand-car .car-second-style{
+    padding-top: 4px;
+}
+.year-made-car select{
+    width: 55px;
+}
+.brand-car,
+.model-car,
+.year-made-car,
+.accessories-car{
+    margin-bottom: 6px;
+    text-align: right;
+}
+.car-tire{
+    display: block;
+    float: right;
+    
+}
