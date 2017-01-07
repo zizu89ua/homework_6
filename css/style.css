@@ -139,19 +139,22 @@ nav a:hover{
 .search-box{
     margin-top: 10px;
 }
-.search-box h2{
+.search-box p{
     color: #154467;
     font-weight: bold;
     margin-bottom: 7px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 10px;
 }
 .search-for-car form{
     background: #ffffff;
     border: 1px #9c9c9d solid;
-    border-radius: 25px;
-    height: 132px;
+    border-radius: 15px;
+    height: 123px;
+    padding-left: 17px;
     padding-top: 4px;
     position: relative;
-    width: 414px;
+    width: 385px;
 }
 .car-disk{
     float: left;
