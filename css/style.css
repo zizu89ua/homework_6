@@ -139,19 +139,24 @@ nav a:hover{
 .search-box{
     margin-top: 10px;
 }
-.search-box p{
+.search-disk-header,
+.search-tires-header{
     color: #154467;
     font-weight: bold;
     margin-bottom: 7px;
     font-family: 'Arial Black', Gadget, sans-serif;
     font-size: 10px;
 }
+.search-tires-header{
+   float: right;
+}
 .search-for-car form{
     background: #ffffff;
     border: 1px #9c9c9d solid;
     border-radius: 15px;
     height: 123px;
-    padding-left: 17px;
+    margin-left: 0;
+    padding-left: 10px;
     padding-top: 4px;
     position: relative;
     width: 385px;
@@ -161,6 +166,14 @@ nav a:hover{
     display: block;
     margin-bottom: 5px;
 }
+.search-for-car-header{
+    left: 130px;
+    color: #154467;
+    font-weight: bold;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 12px;
+    position: absolute;
+}
 form select{
     border: 1px #9f9f9f solid;
     border-bottom: none;
@@ -168,6 +181,7 @@ form select{
     color: #0c3256;
 }
 .car-first-style{
+    clear: both;
     display: block;
     font-family: Arial, Tahoma sans-serif;
     font-size: 10px;
@@ -201,4 +215,16 @@ form select{
     display: block;
     float: right;
     
+}
+.search-button-car{
+    background: #ffffff;
+    border: none;
+    border-bottom: 1px #99a6b3 solid;
+    color: #154467;
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: -5px;
+    margin-right: 8px;
 }
