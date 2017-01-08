@@ -228,3 +228,34 @@ form select{
     margin-top: -5px;
     margin-right: 8px;
 }
+.search-for-tire form{
+    background: #ffffff;
+    border: 1px #9c9c9d solid;
+    border-radius: 15px;
+    float: left;
+    height: 123px;
+    margin-left: 0;
+    padding-left: 10px;
+    padding-top: 4px;
+    position: relative;
+    width: 200px;
+}
+.search-tire-header{
+    color: #154467;
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 12px;
+}
+.tire-search-style{
+    font-family: 'Lucida Sans Unicode', arial;
+    font-size: 10px;
+    float: left;
+    margin-right: 4px;
+    text-align: left;
+    padding-top: 4px;
+    
+}
+.search-for-tire select{
+    width: 50px;
+}
