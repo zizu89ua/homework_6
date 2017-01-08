@@ -238,7 +238,7 @@ form select{
     padding-left: 10px;
     padding-top: 4px;
     position: relative;
-    width: 200px;
+    width: 160px;
 }
 .search-tire-header{
     color: #154467;
@@ -251,6 +251,7 @@ form select{
     font-family: 'Lucida Sans Unicode', arial;
     font-size: 10px;
     float: left;
+    margin-left: 4px;
     margin-right: 4px;
     text-align: left;
     padding-top: 4px;
@@ -258,4 +259,30 @@ form select{
 }
 .search-for-tire select{
     width: 50px;
+    float: left;
+}
+.tire-radius{
+    clear: both;
+    margin-left: 32px;
+    margin-top: 23px;
+    
+}
+.tire-season{
+    clear: both;
+}
+.check-box{
+    float: left;
+    margin-top: 5px;
+}
+.tire-season input{
+    width: auto;
+}
+.tire-season ul{
+    margin-left: 45px;
+    padding-top: 4px;
+}
+.tire-season label{
+    font-family: 'Lucida Sans Unicode', arial;
+    font-size: 12px;
+    height: 13px;
 }
