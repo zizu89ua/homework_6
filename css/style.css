@@ -286,3 +286,51 @@ form select{
     font-size: 12px;
     height: 13px;
 }
+.search-for-disk form{
+    background: #ffffff;
+    border: 1px #9c9c9d solid;
+    border-radius: 15px;
+    float: left;
+    height: 123px;
+    margin-left: 0;
+    margin-right: 0;
+    padding-left: 10px;
+    padding-top: 4px;
+    position: relative;
+    width: 265px;
+}
+.search-disk-header{
+    display: block;
+    color: #154467;
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 12px;
+}
+.search-for-disk select{
+    color: #000000;
+    font-family: Arial,Tahoma sans-serif;
+    width: 55px;
+}
+.search-disk-left-col{
+    border-right: 1px #bdc6ca solid;
+    float: left;
+    padding-right: 12px;
+}
+.search-disk-right-col{
+    float: right;
+}
+
+.disk-first-style{
+    font-family: 'Lucida Sans Unicode', arial;
+    font-size: 10px;
+    float: left;
+    margin-right: 4px;
+}
+.disk-second-style{
+    color: #77858b;
+    font-family: Arial, Tahoma sans-serif;
+    font-size: 9px;
+    display: block;
+    float: left;
+}
