@@ -177,8 +177,10 @@ nav a:hover{
 form select{
     border: 1px #9f9f9f solid;
     border-bottom: none;
+    border-right: none;
     width: 100px;
     color: #0c3256;
+    background: url(../img/strilka.png) no-repeat 81px -1px;
 }
 .car-first-style{
     clear: both;
@@ -258,6 +260,8 @@ form select{
     
 }
 .search-for-tire select{
+    background: url(../img/strilka.png) no-repeat 31px -1px;
+    border-right: none;
     width: 50px;
     float: left;
 }
