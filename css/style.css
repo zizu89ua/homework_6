@@ -351,6 +351,7 @@ form select{
 .left-box{
     float: left;
     display: block;
+    margin-top: 9px;
     position: relative;
     width: 20%;    
 }
@@ -360,6 +361,11 @@ form select{
 }
 .catalog-tires{
     position: relative;
+}
+.catalog-tires,
+.catalog-disks,
+.catalog-bolts{
+    margin-left: 2px;
 }
 .catalog-style-header img{
     display: block;
@@ -378,7 +384,7 @@ form select{
     text-transform: uppercase;
     padding-left: 27px;
     padding-top: 8px;
-    width: 157px;
+    width: 154px;
 }
 .catalog-style{
     border: 1px #79878d solid;
@@ -386,25 +392,81 @@ form select{
     display: block;
     font-size: 14px;
     padding-left: 30px;
-    padding-top: 9px;
+    padding-top: 7px;
     position: relative;
-    height: 20px;
+    height: 19px;
     text-transform: uppercase;
-    width: 125px;
+    width: 119px;
     
 }
 .catalog-style img{
     position: absolute;
     left: 5px;
-    top: 3px;
+    top: 0px;
+}
+.left-box li:first-child{
+    margin-top: 5px;
 }
 .left-box li{
-    background: url(../img/listyle.png) no-repeat 5px 3px;
-       
+    background: url(../img/listyle.png) no-repeat 5px 5px;
+    margin-left: 30px;
+    margin-top: 10px;
 }
 .left-box a{
     color: #114165;
     font-family: 'Lucida Sans Unicode', arial;
     font-size: 13px; 
-    margin-left: 30px;
+    margin-left: 15px;
+}
+.left-box a:hover{
+    font-size: 13px;
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.central-box{
+    background: -webkit-linear-gradient(top, rgba(229,231,232,1) 0%, rgba(147,167,176,1) 100%);
+    float: left;
+    margin-left: 13px;
+    margin-top: 16px;
+    width: 60%;
+}
+.goodyear-tires,
+.nokian-tires,
+.hankook-tires{
+    float: left;
+    margin-bottom: 10px;
+    margin-left: 23px;
+    margin-top: 15px;
+    margin-right: 8px;
+    text-align: center;
+}
+.tires-photo{
+    background: #ffffff;
+    border: 1px #b0b9bc solid;
+    border-radius: 10px;
+    margin-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
+}
+.brand-name{
+    color: #206988;
+    display: block;
+    font-size: 15px;
+    font-family: 'Lucida Sans Unicode', arial;
+    font-weight: bold;
+    height: 13px;
+}
+.brand-mark{
+    color: #1f2528;
+    font-size: 13px;
+    font-family: 'Lucida Sans Unicode', arial;
+}
+.price-tire{
+    color: #206988;
+    font-family: Arial, Tahoma sans-serif;
+    font-size: 16px;
+    font-style: italic;
+    font-weight: bold;
 }
