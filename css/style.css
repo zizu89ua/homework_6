@@ -402,7 +402,7 @@ form select{
 .catalog-style img{
     position: absolute;
     left: 5px;
-    top: 0px;
+    top: 1px;
 }
 .left-box li:first-child{
     margin-top: 5px;
@@ -419,6 +419,7 @@ form select{
     margin-left: 15px;
 }
 .left-box a:hover{
+    font-family: Arial, sans-serif;
     font-size: 13px;
     font-style: italic;
     font-weight: bold;
@@ -429,7 +430,7 @@ form select{
     float: left;
     margin-left: 13px;
     margin-top: 16px;
-    width: 60%;
+    width: 58%;
 }
 .goodyear-tires,
 .nokian-tires,
@@ -469,4 +470,11 @@ form select{
     font-size: 16px;
     font-style: italic;
     font-weight: bold;
+}
+.right-box{
+    float: left;
+    width: 20%;
+}
+.brand-tires form{
+    
 }
