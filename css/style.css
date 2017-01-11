@@ -78,6 +78,9 @@ form a:last-child{
     background-position: -30px 0;
     width: 18px;
 }
+.content{
+    position: relative;
+}
 .topmenu{
    background: -webkit-linear-gradient(top, rgba(77,86,99,1) 0%, rgba(45,50,54,1) 9%, rgba(1,1,1,1) 100%);
    border-bottom: 1px #0a1030 solid;
@@ -337,4 +340,71 @@ form select{
     font-size: 9px;
     display: block;
     float: left;
+}
+.main-box{
+    clear: both;
+    display: block;
+    font-family: 'Lucida Sans Unicode', arial;
+    color: #114165;
+    margin-top: 10px;
+}
+.left-box{
+    float: left;
+    display: block;
+    position: relative;
+    width: 20%;    
+}
+.left-box a{
+    text-decoration: none;
+    padding-top: 5px;
+}
+.catalog-tires{
+    position: relative;
+}
+.catalog-style-header img{
+    display: block;
+    position: absolute;
+    left: 5px;
+    top: 13px;
+}
+.catalog-style-header{
+    border: 1px #8b979c solid;
+    border-radius: 15px;
+    display: block;
+    font-size: 13px;
+    height: 18px;
+    margin-bottom: 13px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    padding-left: 27px;
+    padding-top: 8px;
+    width: 157px;
+}
+.catalog-style{
+    border: 1px #79878d solid;
+    border-radius: 15px;
+    display: block;
+    font-size: 14px;
+    padding-left: 30px;
+    padding-top: 9px;
+    position: relative;
+    height: 20px;
+    text-transform: uppercase;
+    width: 125px;
+    
+}
+.catalog-style img{
+    position: absolute;
+    left: 5px;
+    top: 3px;
+}
+.left-box li{
+    background: url(../img/listyle.png) no-repeat 5px 3px;
+       
+}
+.left-box a{
+    color: #114165;
+    font-family: 'Lucida Sans Unicode', arial;
+    font-size: 13px; 
+    margin-left: 30px;
 }
