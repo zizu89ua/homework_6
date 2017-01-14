@@ -430,7 +430,7 @@ form select{
     float: left;
     margin-left: 13px;
     margin-top: 16px;
-    width: 58%;
+    width: 57%;
 }
 .goodyear-tires,
 .nokian-tires,
@@ -473,8 +473,119 @@ form select{
 }
 .right-box{
     float: left;
+    position: relative;
+    margin-left: 14px;
+    margin-top: 8px;
     width: 20%;
 }
+.right-box form{
+    background: #ffffff;
+}
+.brand-style-header{
+    border: 1px #8b979c solid;
+    border-radius: 15px;
+    display: block;
+    font-size: 13px;
+    height: 18px;
+    margin-bottom: 12px;
+    margin-top: 10px;
+    text-transform: uppercase;
+    padding-left: 33px;
+    padding-top: 5px;
+    width: 154p
+}
+.brand-style-header img{
+    position: absolute;
+    left: 5px;
+    top: 12px;
+}
+.brand-style{
+    border: 1px #79878d solid;
+    border-radius: 15px;
+    display: block;
+    font-size: 14px;
+    margin-bottom: 8px;
+    padding-left: 30px;
+    padding-top: 7px;
+    position: relative;
+    height: 19px;
+    text-transform: uppercase;
+    width: 105px;
+}
+.brand-style img{
+    position: absolute;
+    top: 1px;
+    left: 4px;
+}
 .brand-tires form{
+    border: none;
+    box-shadow: none;
+    padding-left: 0;
+}
+/*
+.brand-tires label{
+    font-family: 'Lucida Sans Unicode', arial;
+    font-size: 13px;
+    padding-bottom: 15px;
+}
+*/
+.brand-checkbox{
+    margin-left: 10px;
+    width: 113px;
     
+}
+.brand-checkbox input{
+    width: 13px;
+}
+.brand-checkbox input[type=checkbox]{
+   display: none;
+}
+
+.brand-checkbox label{
+    display: inline-block;
+    cursor: pointer;
+    position: relative;padding-left: 25px;
+    margin-right: 10px;
+    font-family: 'Lucida Sans Unicode', arial;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+.brand-checkbox label:before {
+	content: "";
+	display: inline-block;
+	width: 7px;
+	height: 7px;
+	margin-right: 10px;
+	position: absolute;
+    left: 0;
+	border: 1px #1c4360 solid;
+    border-bottom: 1px #849bab solid;
+    border-radius: 2px;
+    box-shadow: -1px -1px 3px 1px rgba(129,154,173,1);
+}
+input[type=checkbox]:checked + label:before {
+	content: "\2714";
+	font-size: 11px;
+	color: #1c4360;
+	text-align: center;
+    line-height: 7px;
+}
+.select-button{
+    background: -webkit-linear-gradient(top, rgba(31,103,135,1) 0%, rgba(12,51,87,1) 100%);
+    border: none;
+    border-radius: 15px;
+    color: #ffffff;
+    font-family: Arial, Tahoma sans-serif;
+    font-size: 11px;
+    margin-left: 11px;
+    margin-top: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    width: 80px;
+}
+.select-button:active,
+.select-button:focus{
+    outline: none;
 }
