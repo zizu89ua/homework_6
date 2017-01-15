@@ -162,7 +162,7 @@ nav a:hover{
     padding-left: 10px;
     padding-top: 4px;
     position: relative;
-    width: 385px;
+    width: 397px;
 }
 .car-disk{
     float: left;
@@ -243,7 +243,7 @@ form select{
     padding-left: 10px;
     padding-top: 4px;
     position: relative;
-    width: 160px;
+    width: 169px;
 }
 .search-tire-header{
     color: #154467;
@@ -304,7 +304,7 @@ form select{
     padding-left: 10px;
     padding-top: 4px;
     position: relative;
-    width: 265px;
+    width: 239px;
 }
 .search-disk-header{
     display: block;
@@ -317,29 +317,47 @@ form select{
 .search-for-disk select{
     color: #000000;
     font-family: Arial,Tahoma sans-serif;
+    font-size: 11px;
     width: 55px;
 }
 .search-disk-left-col{
     border-right: 1px #bdc6ca solid;
     float: left;
     padding-right: 12px;
+    width: 147px;
 }
-.search-disk-right-col{
+.search-disk-left-col select{
+    background: url(../img/strilka.png) no-repeat 31px -2px;
+    border-right: none;
+    width: 50px;
     float: right;
 }
-
+.search-disk-right-col{
+    display: block;
+    float: left;
+    width: 86px;
+}
 .disk-first-style{
+    display: block;
+    float: left;
     font-family: 'Lucida Sans Unicode', arial;
     font-size: 10px;
-    float: left;
-    margin-right: 4px;
+
 }
 .disk-second-style{
     color: #77858b;
     font-family: Arial, Tahoma sans-serif;
     font-size: 9px;
     display: block;
+    clear: both;
     float: left;
+}
+.disk-quantity{
+    margin-top: 27px;
+}
+.disk-diametr-mounting{
+    clear: both;
+    margin-top: 65px;
 }
 .main-box{
     clear: both;
@@ -605,7 +623,8 @@ footer{
 }
 .footer-menu{
     margin-bottom: 15px;
-    margin-top: 11px;
+    margin-left: 9px;
+    margin-top: 8px;
     
 }
 .footer-menu li{
@@ -618,8 +637,8 @@ footer{
     text-decoration: none;
 }
 .ver-line{
-    padding-left: 10px;
-    margin-right: 10px;
+    padding-left: 8px;
+    padding-right: 10px;
 }
 .copyright-block{
     color: #7f4740;
