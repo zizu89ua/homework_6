@@ -60,8 +60,8 @@
                         <div class="car-disk">
                             <span class="search-disk-header">Диски:</span>
                             <div class="brand-car">
-                                <span class="car-first-style">Марка</span> 
-                                <span class="car-second-style">авто:</span>
+                                <span class="car-first-style">Марка<span class="ather-style">авто:</span></span> 
+                                
                                 <select>
                                     <option value=""></option>
                                     <option value=""></option>
@@ -97,8 +97,8 @@
                         <div class="car-tire">
                             <span class="search-tires-header">Шины:</span>
                             <div class="brand-car">
-                                <span class="car-first-style">Марка</span>
-                                <span class="car-second-style">авто:</span>
+                                <span class="car-first-style">Марка <span class="ather-style">авто:</span></span>
+                                
                                 <select>
                                     <option value=""></option>
                                     <option value=""></option>
@@ -163,11 +163,11 @@
                         <br>
                         <div class="tire-season">
                             <span class="tire-search-style">Сезон:</span>
-                            <ul>
-                                <li><input type="checkbox"><label>лето</label></li>
-                                <li><input type="checkbox"><label>зима</label></li>
-                                <li><input type="checkbox"><label>всесез</label></li>
-                            </ul>
+                            <div class="check-tire">
+                                <input type="checkbox" id="check-season1"><label for="check-season1">лето</label>
+                                <input type="checkbox" id="check-season2"><label for="check-season2">зима</label>
+                                <input type="checkbox" id="check-season3"><label for="check-season3">всесез</label>
+                            </div>
                         </div>
                         <button class="search-button-car">поиск...</button>
                     </form>
@@ -177,7 +177,7 @@
                         <div class="search-disk-left-col">
                              <span class="search-disk-header">поиск дисков</span>
                             <div class="disk-diametr">
-                                <span class="disk-first-style">Диаметр диска:</span>
+                                <span class="disk-first-style">Диаметр <span class="car-second-style">диска:</span></span>
 <!--                                <span class="disk-second-style"></span>-->
                                     <select>
                                         <option>14</option>
@@ -207,7 +207,7 @@
                         <div class="search-disk-right-col">
                             <div class="disk-dco">
                                 <span class="disk-first-style">ДЦО </span>
-                                <span class="disk-second-style">(диаметр <br>центрального <br> отверстия):</span>
+                                <span class="disk-second-style">(диаметр центрального отверстия):</span>
                                 <select>
                                     <option>12</option>
                                     <option></option>
@@ -215,7 +215,7 @@
                                 </select>
                             </div>
                             <div class="disk-et">
-                                <span class="disk-first-style">ЕТ </span> <br>
+                                <span class="disk-first-style">ЕТ </span>
                                 <span class="disk-second-style">(вылет диска):</span>
                                 <select>
                                     <option>12</option>
@@ -224,6 +224,7 @@
                                 </select>
                             </div>
                         </div>
+                        <button class="search-button-car">поиск...</button>
                     </form>
                 </div>
             </div>
@@ -280,7 +281,7 @@
                 </div>
                 <div class="hankook-tires">
                     <span class="brand-name">Hankook</span>
-                    <span class="brand-mark">K 708 155/65 R14e</span>
+                    <span class="brand-mark">K 708 155/65 R14</span>
                     <figure class="tires-photo">
                         <a href="#"><img src="img/tovar/hankook.png" alt="goodyear"></a>
 <!--                        <figcaption>90.00 грн.</figcaption>-->
@@ -307,7 +308,7 @@
                 </div>
                 <div class="hankook-tires">
                     <span class="brand-name">Hankook</span>
-                    <span class="brand-mark">K 708 155/65 R14e</span>
+                    <span class="brand-mark">K 708 155/65 R14</span>
                     <figure class="tires-photo">
                         <a href="#"><img src="img/tovar/hankook.png" alt="goodyear"></a>
 <!--                        <figcaption>90.00 грн.</figcaption>-->

@@ -89,7 +89,7 @@ form a:last-child{
    border-right: 1px #0d1642 solid;
    border-top: 1px #2c345a solid;
    box-shadow: 3px 4px 12px -1px rgba(10,16,48,1);
-   margin-top: 5px;
+   margin-top: 2px;
    height: 32px;
    position: relative;
 }
@@ -140,9 +140,9 @@ nav a:hover{
     padding-left: 7px;
 }
 .search-box{
-    margin-top: 10px;
+    margin-top: 13px;
+    margin-left: 4px;
 }
-.search-disk-header,
 .search-tires-header{
     color: #154467;
     font-weight: bold;
@@ -159,10 +159,10 @@ nav a:hover{
     border-radius: 15px;
     height: 123px;
     margin-left: 0;
-    padding-left: 10px;
+    padding-left: 18px;
     padding-top: 4px;
     position: relative;
-    width: 397px;
+    width: 386px;
 }
 .car-disk{
     float: left;
@@ -181,6 +181,8 @@ form select{
     border: 1px #9f9f9f solid;
     border-bottom: none;
     border-right: none;
+    box-shadow: inset 10px 10px 5px -11px rgba(0,0,0,1);
+    outline: none;
     width: 100px;
     color: #0c3256;
     background: url(../img/strilka.png) no-repeat 81px -1px;
@@ -203,23 +205,29 @@ form select{
     display: block;
     float: left;
 }
-.brand-car .car-second-style{
-    padding-top: 4px;
-}
-.year-made-car select{
+
+.year-made-car select {
     width: 55px;
+    margin-right: 45px;
+    border: 1px #9f9f9f solid;
+    border-bottom: none;
+    border-right: none;
+    box-shadow: inset 10px 10px 5px -11px rgba(0,0,0,1);
+    outline: none;
+    color: #0c3256;
+    background: url(../img/strilka.png) no-repeat 36px -1px;
 }
 .brand-car,
 .model-car,
 .year-made-car,
 .accessories-car{
-    margin-bottom: 6px;
+    margin-bottom: 4px;
     text-align: right;
 }
 .car-tire{
     display: block;
     float: right;
-    
+    margin-right: 3px;
 }
 .search-button-car{
     background: #ffffff;
@@ -230,20 +238,21 @@ form select{
     font-family: Arial, sans-serif;
     font-size: 14px;
     font-style: italic;
-    margin-top: -5px;
-    margin-right: 8px;
+    margin-top: 4px;
+    margin-right: 11px;
 }
 .search-for-tire form{
     background: #ffffff;
     border: 1px #9c9c9d solid;
     border-radius: 15px;
     float: left;
-    height: 123px;
+    height: 125px;
     margin-left: 0;
+    margin-right: 10px;
     padding-left: 10px;
-    padding-top: 4px;
+    padding-top: 0px;
     position: relative;
-    width: 169px;
+    width: 170px;
 }
 .search-tire-header{
     color: #154467;
@@ -265,6 +274,7 @@ form select{
 .search-for-tire select{
     background: url(../img/strilka.png) no-repeat 31px -1px;
     border-right: none;
+    box-shadow: inset 10px 10px 5px -11px rgba(0,0,0,1);
     width: 50px;
     float: left;
 }
@@ -282,12 +292,46 @@ form select{
     margin-top: 5px;
 }
 .tire-season input{
-    width: auto;
+    width: 13px;
 }
-.tire-season ul{
-    margin-left: 45px;
-    padding-top: 4px;
+.check-tire{
+    margin-left: 46px;
+    width: 59px;
 }
+.check-tire input[type=checkbox]{
+   display: none;
+}
+.check-tire label{
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    padding-left: 12px;
+    margin-right: 10px;
+    font-family: 'Lucida Sans Unicode', arial;
+    font-size: 13px;
+}
+.check-tire label:before {
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    margin-right: 10px;
+    position: absolute;
+    left: 0;
+    border: 1px #707070 solid;
+    border-bottom: 1px #f4f4f4 solid;
+    border-right: 1px #f4f4f4 solid;
+    box-shadow: inset 0px 0px 0px 0px rgba(0, 0, 0, 0.75);
+}
+}
+input[type=checkbox]:checked + label:before {
+	content: "\2714";
+	font-size: 11px;
+	color: #1c4360;
+	text-align: center;
+    line-height: 7px;
+}
+
 .tire-season label{
     font-family: 'Lucida Sans Unicode', arial;
     font-size: 12px;
@@ -301,15 +345,16 @@ form select{
     height: 123px;
     margin-left: 0;
     margin-right: 0;
-    padding-left: 10px;
+    padding-left: 5px;
     padding-top: 4px;
     position: relative;
-    width: 239px;
+    width: 246px;
 }
 .search-disk-header{
     display: block;
     color: #154467;
     font-weight: bold;
+     letter-spacing: 1px;
     margin-bottom: 7px;
     font-family: 'Arial Black', Gadget, sans-serif;
     font-size: 12px;
@@ -323,19 +368,30 @@ form select{
 .search-disk-left-col{
     border-right: 1px #bdc6ca solid;
     float: left;
+    padding-left: 5px;
     padding-right: 12px;
-    width: 147px;
+    width: 150px;
 }
 .search-disk-left-col select{
-    background: url(../img/strilka.png) no-repeat 31px -2px;
+    background: url(../img/strilka.png) no-repeat 36px -3px;
     border-right: none;
-    width: 50px;
+    box-shadow: inset 10px 10px 5px -11px rgba(0,0,0,1);
+    color: #0c3256;
+    width: 55px;
     float: right;
 }
 .search-disk-right-col{
     display: block;
     float: left;
-    width: 86px;
+    padding-left: 10px;
+    width: 68px;
+}
+.search-disk-right-col select{
+    background: url(../img/strilka.png) no-repeat 36px -3px;
+    border-right: none;
+    box-shadow: inset 10px 10px 5px -11px rgba(0,0,0,1);
+    color: #0c3256;
+    width: 55px;
 }
 .disk-first-style{
     display: block;
@@ -352,12 +408,23 @@ form select{
     clear: both;
     float: left;
 }
+.disk-diametr{
+    padding-left: 7px;
+}
 .disk-quantity{
-    margin-top: 27px;
+    margin-top: 23px;
+    padding-left: 7px;
 }
 .disk-diametr-mounting{
     clear: both;
-    margin-top: 65px;
+    margin-top: 56px;
+    padding-left: 7px;
+}
+.disk-dco{
+    margin-bottom: 5px;
+}
+.disk-et{
+    margin-bottom: 15px;
 }
 .main-box{
     clear: both;
@@ -446,10 +513,10 @@ form select{
 .central-box{
     background: -webkit-linear-gradient(top, rgba(229,231,232,1) 0%, rgba(147,167,176,1) 100%);
     float: left;
-    margin-left: 13px;
-    margin-top: 16px;
+    margin-left: 11px;
+    margin-top: 15px;
     padding-bottom: 17px;
-    width: 57%;
+    width: 58%;
 }
 .goodyear-tires,
 .nokian-tires,
@@ -493,8 +560,8 @@ form select{
 .right-box{
     float: left;
     position: relative;
-    margin-left: 14px;
-    margin-top: 8px;
+    margin-left: 7px;
+    margin-top: 6px;
     width: 20%;
 }
 .right-box form{
@@ -541,17 +608,9 @@ form select{
     box-shadow: none;
     padding-left: 0;
 }
-/*
-.brand-tires label{
-    font-family: 'Lucida Sans Unicode', arial;
-    font-size: 13px;
-    padding-bottom: 15px;
-}
-*/
 .brand-checkbox{
     margin-left: 10px;
     width: 113px;
-    
 }
 .brand-checkbox input{
     width: 13px;
@@ -563,7 +622,8 @@ form select{
 .brand-checkbox label{
     display: inline-block;
     cursor: pointer;
-    position: relative;padding-left: 25px;
+    position: relative;
+    padding-left: 25px;
     margin-right: 10px;
     font-family: 'Lucida Sans Unicode', arial;
     font-size: 13px;
