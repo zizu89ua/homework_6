@@ -143,6 +143,9 @@ nav a:hover{
     margin-top: 13px;
     margin-left: 4px;
 }
+.search-box form{
+    box-shadow: 1px 2px 5px 1px rgba(119, 119, 119, 0.64)
+}
 .search-tires-header{
     color: #154467;
     font-weight: bold;
@@ -168,6 +171,14 @@ nav a:hover{
     float: left;
     display: block;
     margin-bottom: 5px;
+}
+.search-disk-header1{
+    display: block;
+    color: #154467;
+    font-weight: bold;
+    margin-bottom: 7px;
+    font-family: 'Arial Black', Gadget, sans-serif;
+    font-size: 10px;
 }
 .search-for-car-header{
     left: 130px;
@@ -238,7 +249,31 @@ form select{
     font-family: Arial, sans-serif;
     font-size: 14px;
     font-style: italic;
-    margin-top: 4px;
+    margin-top: -3px;
+    margin-right: 12px;
+}
+.search-button-tire{
+    background: #ffffff;
+    border: none;
+    border-bottom: 1px #99a6b3 solid;
+    color: #154467;
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: -5px;
+    margin-right: 11px;
+}
+.search-button-disk{
+    background: #ffffff;
+    border: none;
+    border-bottom: 1px #99a6b3 solid;
+    color: #154467;
+    float: right;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-style: italic;
+    margin-top: -6px;
     margin-right: 11px;
 }
 .search-for-tire form{
@@ -260,6 +295,9 @@ form select{
     margin-bottom: 7px;
     font-family: 'Arial Black', Gadget, sans-serif;
     font-size: 12px;
+}
+.tire-size{
+    padding-top: 6px;
 }
 .tire-search-style{
     font-family: 'Lucida Sans Unicode', arial;
@@ -348,7 +386,7 @@ input[type=checkbox]:checked + label:before {
     padding-left: 5px;
     padding-top: 4px;
     position: relative;
-    width: 246px;
+    width: 251px;
 }
 .search-disk-header{
     display: block;
@@ -369,7 +407,7 @@ input[type=checkbox]:checked + label:before {
     border-right: 1px #bdc6ca solid;
     float: left;
     padding-left: 5px;
-    padding-right: 12px;
+    padding-right: 15px;
     width: 150px;
 }
 .search-disk-left-col select{
@@ -425,6 +463,11 @@ input[type=checkbox]:checked + label:before {
 }
 .disk-et{
     margin-bottom: 15px;
+}
+.ather-style{
+    color: #77858b;
+    font-family: Arial, Tahoma sans-serif;
+    font-size: 9px;
 }
 .main-box{
     clear: both;
