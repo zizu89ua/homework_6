@@ -739,6 +739,9 @@ footer{
     font-size: 12px;
     text-decoration: none;
 }
+.footer-menu a:hover{
+    color: #52abcb;
+}
 .ver-line{
     padding-left: 8px;
     padding-right: 10px;
