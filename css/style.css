@@ -53,6 +53,7 @@ form a:last-child{
 .map{
     border: 1px #d3d8da solid;
     border-radius: 70px;
+    box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.25);
     height: 19px;
     position: relative;
     overflow: hidden;
@@ -504,6 +505,7 @@ input[type=checkbox]:checked + label:before {
 .catalog-style-header{
     border: 1px #8b979c solid;
     border-radius: 15px;
+    box-shadow: 1px 2px 4px 0px rgba(140,150,154,1);
     display: block;
     font-size: 13px;
     height: 18px;
@@ -613,6 +615,7 @@ input[type=checkbox]:checked + label:before {
 .brand-style-header{
     border: 1px #8b979c solid;
     border-radius: 15px;
+    box-shadow: 1px 2px 4px 0px rgba(140,150,154,1);
     display: block;
     font-size: 13px;
     height: 18px;
@@ -696,6 +699,7 @@ input[type=checkbox]:checked + label:before {
     background: -webkit-linear-gradient(top, rgba(31,103,135,1) 0%, rgba(12,51,87,1) 100%);
     border: none;
     border-radius: 15px;
+    box-shadow: 2px 3px 1px 0px rgba(213,213,213,1);
     color: #ffffff;
     font-family: Arial, Tahoma sans-serif;
     font-size: 11px;
